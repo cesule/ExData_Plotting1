@@ -16,7 +16,7 @@ png(file = "plot4.png", bg = "transparent")
 
 par(mfrow=c(2,2))
 # First row, first column:
-with(epc_subset, plot(datetime, Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)"))
+with(epc_subset, plot(datetime, Global_active_power, type="l", xlab="", ylab="Global Active Power"))
 # First row, second column:
 with(epc_subset, plot(datetime, Voltage, type="l"))
 # Second row, first column:
